@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int sensor_value=42;
+    printf("Sensor value = %d \n", sensor_value);
+    printf("Memory address (Hex): %p \n", (void*)&sensor_value);
+    return 0;
+}
