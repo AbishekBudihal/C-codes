@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    volatile int *hardware_status_register =(int *)0x0011FF55;
+    printf("Simulated hardware pointer initialized\n");
+    printf("In embedded systems volatile prevent compiler for making dangerous assumptions");
+    return 0;
+}
