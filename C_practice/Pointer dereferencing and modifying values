@@ -1,0 +1,11 @@
+###After we know where the variable lives, we want to read and change that data using dereference operator (*)
+#include<stdio.h>
+int main(){
+    int sensor_value=100;
+    int *ptr =&sensor_value;
+    printf("Original Sensor value: %d\n",sensor_value);
+    
+    *ptr=300;
+    printf("New value (via dereferencing)= %d\n",sensor_value);
+    return 0;
+}
